@@ -226,7 +226,6 @@
             
         case NSStreamEventHasBytesAvailable:
             //inputStream -  data is available
-            NSLog(@"puk");
             //Check stream ID
             if (aStream == self.inputStream) {
                 //Create buffer
