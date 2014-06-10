@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4038BC80194608FF002BE518 /* MapMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4038BC7F194608FF002BE518 /* MapMainView.m */; };
+		4038BC8419461C75002BE518 /* UserAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4038BC8319461C75002BE518 /* UserAnnotation.m */; };
+		4038BC881946F906002BE518 /* UserAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4038BC871946F906002BE518 /* UserAnnotationView.m */; };
+		4038BC8F19473689002BE518 /* UserImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4038BC8E19473689002BE518 /* UserImageDownloader.m */; };
 		4080EE4B1945A6CA00ECCC4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080EE4A1945A6CA00ECCC4D /* main.m */; };
 		4080EE4E1945A6CA00ECCC4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080EE4D1945A6CA00ECCC4D /* AppDelegate.m */; };
 		4080EE501945A6CA00ECCC4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4080EE4F1945A6CA00ECCC4D /* Images.xcassets */; };
 		4080EE5C1945A6CB00ECCC4D /* DraugiemLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080EE5B1945A6CB00ECCC4D /* DraugiemLocationTests.m */; };
+		4080EE671945A6E500ECCC4D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080EE661945A6E500ECCC4D /* MapViewController.m */; };
+		4080EE6C1945EE6700ECCC4D /* StreamConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4080EE6B1945EE6700ECCC4D /* StreamConverter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +30,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4038BC7E194608FF002BE518 /* MapMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMainView.h; sourceTree = "<group>"; };
+		4038BC7F194608FF002BE518 /* MapMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMainView.m; sourceTree = "<group>"; };
+		4038BC8219461C75002BE518 /* UserAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAnnotation.h; sourceTree = "<group>"; };
+		4038BC8319461C75002BE518 /* UserAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAnnotation.m; sourceTree = "<group>"; };
+		4038BC861946F906002BE518 /* UserAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAnnotationView.h; sourceTree = "<group>"; };
+		4038BC871946F906002BE518 /* UserAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAnnotationView.m; sourceTree = "<group>"; };
+		4038BC8D19473689002BE518 /* UserImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserImageDownloader.h; sourceTree = "<group>"; };
+		4038BC8E19473689002BE518 /* UserImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserImageDownloader.m; sourceTree = "<group>"; };
 		4080EE451945A6CA00ECCC4D /* DraugiemLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraugiemLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4080EE491945A6CA00ECCC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4080EE4A1945A6CA00ECCC4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -33,6 +47,12 @@
 		4080EE551945A6CB00ECCC4D /* DraugiemLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DraugiemLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4080EE5A1945A6CB00ECCC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4080EE5B1945A6CB00ECCC4D /* DraugiemLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DraugiemLocationTests.m; sourceTree = "<group>"; };
+		4080EE651945A6E500ECCC4D /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4080EE661945A6E500ECCC4D /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4080EE6A1945EE6700ECCC4D /* StreamConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamConverter.h; sourceTree = "<group>"; };
+		4080EE6B1945EE6700ECCC4D /* StreamConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamConverter.m; sourceTree = "<group>"; };
+		4093F63D19478289006469CF /* UserCacheController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCacheController.h; sourceTree = "<group>"; };
+		4093F63E19478289006469CF /* UserCacheController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCacheController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +73,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4038BC7C194608CF002BE518 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4038BC851946F8F1002BE518 /* customAnnotationView */,
+				4038BC7D194608DB002BE518 /* mapView */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4038BC7D194608DB002BE518 /* mapView */ = {
+			isa = PBXGroup;
+			children = (
+				4038BC7E194608FF002BE518 /* MapMainView.h */,
+				4038BC7F194608FF002BE518 /* MapMainView.m */,
+			);
+			name = mapView;
+			sourceTree = "<group>";
+		};
+		4038BC8119461C3E002BE518 /* customAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				4038BC8219461C75002BE518 /* UserAnnotation.h */,
+				4038BC8319461C75002BE518 /* UserAnnotation.m */,
+			);
+			name = customAnnotation;
+			sourceTree = "<group>";
+		};
+		4038BC851946F8F1002BE518 /* customAnnotationView */ = {
+			isa = PBXGroup;
+			children = (
+				4038BC861946F906002BE518 /* UserAnnotationView.h */,
+				4038BC871946F906002BE518 /* UserAnnotationView.m */,
+			);
+			name = customAnnotationView;
+			sourceTree = "<group>";
+		};
+		4038BC89194734C6002BE518 /* imageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				4038BC8D19473689002BE518 /* UserImageDownloader.h */,
+				4038BC8E19473689002BE518 /* UserImageDownloader.m */,
+			);
+			name = imageDownloader;
+			sourceTree = "<group>";
+		};
 		4080EE3C1945A6CA00ECCC4D = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +139,9 @@
 		4080EE471945A6CA00ECCC4D /* DraugiemLocation */ = {
 			isa = PBXGroup;
 			children = (
+				4080EE681945EE4400ECCC4D /* Models */,
+				4038BC7C194608CF002BE518 /* Views */,
+				4093F63F194784B7006469CF /* Controllers */,
 				4080EE4C1945A6CA00ECCC4D /* AppDelegate.h */,
 				4080EE4D1945A6CA00ECCC4D /* AppDelegate.m */,
 				4080EE4F1945A6CA00ECCC4D /* Images.xcassets */,
@@ -106,6 +174,44 @@
 				4080EE5A1945A6CB00ECCC4D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4080EE681945EE4400ECCC4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4038BC8119461C3E002BE518 /* customAnnotation */,
+				4093F63619477732006469CF /* cacheController */,
+				4038BC89194734C6002BE518 /* imageDownloader */,
+				4080EE691945EE4E00ECCC4D /* streamConverter */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4080EE691945EE4E00ECCC4D /* streamConverter */ = {
+			isa = PBXGroup;
+			children = (
+				4080EE6A1945EE6700ECCC4D /* StreamConverter.h */,
+				4080EE6B1945EE6700ECCC4D /* StreamConverter.m */,
+			);
+			name = streamConverter;
+			sourceTree = "<group>";
+		};
+		4093F63619477732006469CF /* cacheController */ = {
+			isa = PBXGroup;
+			children = (
+				4093F63D19478289006469CF /* UserCacheController.h */,
+				4093F63E19478289006469CF /* UserCacheController.m */,
+			);
+			name = cacheController;
+			sourceTree = "<group>";
+		};
+		4093F63F194784B7006469CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4080EE651945A6E500ECCC4D /* MapViewController.h */,
+				4080EE661945A6E500ECCC4D /* MapViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4038BC8419461C75002BE518 /* UserAnnotation.m in Sources */,
+				4080EE6C1945EE6700ECCC4D /* StreamConverter.m in Sources */,
+				4038BC80194608FF002BE518 /* MapMainView.m in Sources */,
+				4038BC881946F906002BE518 /* UserAnnotationView.m in Sources */,
+				4080EE671945A6E500ECCC4D /* MapViewController.m in Sources */,
+				4038BC8F19473689002BE518 /* UserImageDownloader.m in Sources */,
 				4080EE4E1945A6CA00ECCC4D /* AppDelegate.m in Sources */,
 				4080EE4B1945A6CA00ECCC4D /* main.m in Sources */,
 			);
@@ -311,8 +423,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DraugiemLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,8 +436,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DraugiemLocation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -382,6 +498,7 @@
 				4080EE611945A6CB00ECCC4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4080EE621945A6CB00ECCC4D /* Build configuration list for PBXNativeTarget "DraugiemLocationTests" */ = {
 			isa = XCConfigurationList;
@@ -390,6 +507,7 @@
 				4080EE641945A6CB00ECCC4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
